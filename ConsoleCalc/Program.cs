@@ -17,6 +17,8 @@ namespace SimpleCalc
             //multiplication
             double resMul = a * b;
             Console.WriteLine("Result multiplication = " + resMul);
+            double resDiv = a / b;
+            Console.WriteLine("Result divisual = " + resDiv);
             Console.ReadKey();
         }
     }
