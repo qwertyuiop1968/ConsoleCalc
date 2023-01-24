@@ -14,6 +14,9 @@ namespace SimpleCalc
             Console.WriteLine("Result addition = " + resAdd);
             double resSub = a - b;
             Console.WriteLine("Result subtraction = " + resSub);
+            //multiplication
+            double resMul = a * b;
+            Console.WriteLine("Result multiplication = " + resMul);
             Console.ReadKey();
         }
     }
