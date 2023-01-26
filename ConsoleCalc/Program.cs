@@ -23,6 +23,8 @@ namespace SimpleCalc
             Console.WriteLine("Result mode = " + resMode);
             a++;
             Console.WriteLine("Result inc = " + a);
+            double resSin = Math.Sin(a);
+            Console.WriteLine("Result sin = " + resSin);
             Console.ReadKey();
         }
     }
