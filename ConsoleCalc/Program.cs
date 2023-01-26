@@ -21,6 +21,8 @@ namespace SimpleCalc
             Console.WriteLine("Result divisual = " + resDiv);
             double resMode = a % b;
             Console.WriteLine("Result mode = " + resMode);
+            double resSin = Math.Sin(a);
+            Console.WriteLine("Result sin = " + resSin);
             Console.ReadKey();
         }
     }
